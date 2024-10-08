@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h4 {
+      font-size: 1.8rem;
+      color: #ccc;
+      margin-bottom: 0.2rem;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+      color: #888;
+    }
+  
+    .header-buttons {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+  
+      .btn {
+        padding: 0.75rem 1.5rem;
+        border-radius: 30px;
+        background-color: #222;
+        color: white;
+        border: 2px solid #007bff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #007bff; // Couleur au survol
+        }
+      }
+  
+      .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+  
+        &:hover {
+          background-color: #0056b3; // Couleur au survol pour le bouton primaire
+        }
+      }
+    }
+  
+    .header-photo {
+      margin-top: 2rem;
+      border-radius: 20px;;
+
+  
+      img {
+        width: 250px;
+        height: auto;
+        border-radius: 20%;
+        object-fit: cover; // Garde l'image bien cadrée
+        border: 2px solid #2c4f76; /* Ajoute une bordure circulaire */
+    }
+    }
+  }
+  
