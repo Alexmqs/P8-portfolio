@@ -1,0 +1,49 @@
+.about-section {
+    padding: 2rem; /* Espacement autour du about */
+    color: #333; /* Couleur du texte */
+    
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #2c4f76; /* Couleur personnalisée pour le titre */
+    }
+  
+    .about-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .about-left {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+  
+      .profile-photo {
+        width: 400px;
+        height: 500px;
+        border-radius: 20%; /* Rend l'image circulaire */
+        object-fit: cover; /* Assure que l'image reste bien cadrée */
+        border: 3px solid #2c4f76; /* Ajoute une bordure circulaire */
+      }
+    }
+  
+    .about-right {
+      flex: 2;
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #2c4f76; /* Couleur personnalisée pour le sous-titre */
+      }
+  
+      p {
+        width: 80%;
+        font-size: 2rem;
+        line-height: 1.5;
+        color: #ffffff;
+      }
+    }
+  }
+  
