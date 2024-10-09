@@ -1,0 +1,28 @@
+.footer {
+    background-color: #222; 
+    padding: 1.5rem 0;
+    color: #fff;
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      margin: 0 auto; 
+      padding: 0 3rem;
+  
+      p {
+        margin: 0;
+        font-size: 1rem;
+      }
+  
+      .github-link {
+        color: #fff; 
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #007bff; 
+        }
+      }
+    }
+  }
+  
