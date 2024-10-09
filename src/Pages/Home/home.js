@@ -5,6 +5,7 @@ import Header from "../../Components/Header/header"
 import Skills from '../../Components/Skills/skills';
 import Projects from '../../Components/Projects/projects';
 import Contact from '../../Components/Contact/contact';
+import Footer from '../../Components/Footer/footer';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Skills />
       <Projects /> 
       <Contact />
+      <Footer />
     </section>
   );
 }
