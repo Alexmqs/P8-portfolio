@@ -53,7 +53,6 @@ const Projects = () => {
     <section className="projects-section">
       <h2 className="projects-title">Mes Projets</h2>
 
-      {/* Système de filtres */}
       <div className="projects-filters">
         {filters.map((filter, index) => (
           <button
