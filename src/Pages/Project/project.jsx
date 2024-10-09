@@ -1,13 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router-dom'; // Pour récupérer l'ID depuis l'URL
+import { useParams } from 'react-router-dom'; 
 
 const ProjectDetails = () => {
-  const { id } = useParams(); // Récupère l'ID du projet depuis l'URL
+  const { id } = useParams(); 
 
   return (
     <div>
       <h2>Détails du projet avec l'ID : {id}</h2>
-      {/* Ici tu peux ajouter plus de détails sur le projet */}
     </div>
   );
 };

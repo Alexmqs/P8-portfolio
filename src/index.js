@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importer le routing
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import './index.scss'; 
-import Home from './Pages/Home/home'; // Page d'accueil
-import ProjectDetails from './Pages/Project/project'; // Utilise le chemin correct vers project.jsx
-import ParticlesComponent from './Components/Particles/particles.jsx'; // Particules pour l'arrière-plan
+import Home from './Pages/Home/home'; 
+import ProjectDetails from './Pages/Project/project'; 
+import ParticlesComponent from './Components/Particles/particles.jsx'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,8 +12,8 @@ root.render(
     <ParticlesComponent id="particles" />
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />  {/* Page d'accueil */}
-        <Route path="/projets/:id" element={<ProjectDetails />} /> {/* Page pour chaque projet */}
+        <Route path="/" element={<Home />} />  
+        <Route path="/projets/:id" element={<ProjectDetails />} /> 
       </Routes>
     </Router>
   </React.StrictMode>
