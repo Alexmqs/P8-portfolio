@@ -1,40 +1,46 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Pour la redirection vers /projets/:id
 import "./projects.scss";
+import Architect from '../../Assets/Architect.png';
+import Booki from '../../Assets/Booki.png';
+import Kasa from '../../Assets/Kasa.png';
+import MVG from '../../Assets/MVG.png';
+import Nina from '../../Assets/Nina.png';
+
 
 const projectsData = [
   {
     id: 1,
     title: "OC Booki",
-    image: "path_to_image_1.jpg", 
+    image: Booki, 
     description: "Le projet Booki consiste à développer un site web permettant aux utilisateurs de rechercher des hébergements et des activités dans différentes villes.",
     technologies: ["HTML/CSS"],
   },
   {
     id: 2,
     title: "OC Portfolio architecte",
-    image: "path_to_image_2.jpg",
+    image: Architect,
     description: "Le projet consiste à concevoir et développer le portfolio en ligne d'une architecte d'intérieur, en prenant en charge l'intégration front-end de nouvelles fonctionnalités.",
     technologies: ["JavaScript"],
   },
   {
     id: 3,
     title: "OC Nina-Carducci",
-    image: "path_to_image_3.jpg",
+    image: Nina,
     description: "Le projet consiste à optimiser les performances et le référencement SEO du site d'une photographe, en améliorant la vitesse de chargement, l'accessibilité, et en mettant en place un référencement local.",
     technologies: ["HTML/CSS", "JavaScript", "SEO"],
   },
   {
     id: 4,
     title: "OC kasa",
-    image: "path_to_image_3.jpg",
+    image: Kasa,
     description: "Le projet consiste à refondre le site de Kasa, une plateforme de location d'appartements, en suivant les maquettes et spécifications fournies par l'équipe de design.",
     technologies: ["React", "HTML/CSS", "Javascript"],
   },
   {
     id: 5,
     title: "OC Mon Vieux Grimoire",
-    image: "path_to_image_3.jpg",
+    image: MVG,
     description: "Le projet consiste à développer l'API back-end d'un site de notation de livres, 'Mon Vieux Grimoire', en prenant en compte l'optimisation des images envoyées par les utilisateurs.",
     technologies: ["Backend"],
   },
@@ -50,7 +56,7 @@ const Projects = () => {
     : projectsData.filter(project => project.technologies.includes(selectedFilter));
 
   return (
-    <section className="projects-section">
+    <section id="services" className="projects-section">
       <h2 className="projects-title">Mes Projets</h2>
 
       <div className="projects-filters">

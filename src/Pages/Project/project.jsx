@@ -1,14 +1,14 @@
 import React from 'react';
-import { useParams } from 'react-router-dom'; 
+import Footer from '../../Components/Footer/footer';
 
-const ProjectDetails = () => {
-  const { id } = useParams(); 
+function ProjectDetails() {
+    return (
+      <section id="home">
 
-  return (
-    <div>
-      <h2>Détails du projet avec l'ID : {id}</h2>
-    </div>
-  );
-};
-
-export default ProjectDetails;
+        <Footer />
+      </section>
+    );
+  }
+  
+  export default ProjectDetails;
+  
