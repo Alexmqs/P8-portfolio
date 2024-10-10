@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/P8-Portfolio/static/css/main.b3eea0d7.css",
+    "main.js": "/P8-Portfolio/static/js/main.f3b08ace.js",
+    "static/media/imgAlex.jpg": "/P8-Portfolio/static/media/imgAlex.3903841cb4d334f0a82c.jpg",
+    "static/media/ImgAlex2.png": "/P8-Portfolio/static/media/ImgAlex2.7968212676f5929fd46b.png",
+    "index.html": "/P8-Portfolio/index.html",
+    "main.b3eea0d7.css.map": "/P8-Portfolio/static/css/main.b3eea0d7.css.map",
+    "main.f3b08ace.js.map": "/P8-Portfolio/static/js/main.f3b08ace.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3eea0d7.css",
+    "static/js/main.f3b08ace.js"
+  ]
+}
