@@ -10,11 +10,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ParticlesComponent id="particles" />
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />  
-        <Route path="/projets/:id" element={<ProjectDetails />} /> 
-      </Routes>
-    </Router>
+    <div className="content-wrapper">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projets/:id" element={<ProjectDetails />} />
+        </Routes>
+      </Router>
+    </div>
   </React.StrictMode>
 );
