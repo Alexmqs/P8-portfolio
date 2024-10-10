@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "title": "OC Booki",
+      "image": "/Assets/Booki.png",
+      "shortDescription": "Le projet Booki consiste à développer un site web permettant aux utilisateurs de rechercher des hébergements et des activités.",
+      "fullDescription": "",
+      "technologies": ["HTML", "CSS"],
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Kasa",
+      "image": "/Assets/Kasa.png",
+      "shortDescription": "Le projet Kasa permet aux utilisateurs de trouver des logements partout en France.",
+      "fullDescription": "a",
+      "technologies": ["React", "JavaScript"],
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Architect",
+      "image": "/Assets/Architect.png",
+      "shortDescription": "Le projet Architect est une application web permettant de gérer des projets de construction.",
+      "fullDescription": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "MVG",
+      "image": "/Assets/MVG.png",
+      "shortDescription": "Le projet MVG est un site de gestion de voyages pour planifier des itinéraires et réserver des services.",
+      "fullDescription": "",
+      "technologies": ["React", "JavaScript", "API"],
+      "link": ""
+    },
+    {
+      "id": 5,
+      "title": "Nina",
+      "image": "/Assets/Nina.png",
+      "shortDescription": "Le projet Nina est une application mobile destinée à faciliter la gestion des tâches quotidiennes.",
+      "fullDescription": "",
+      "technologies": ["React Native", "JavaScript"],
+      "link": ""
+    }
+  ]
+  
