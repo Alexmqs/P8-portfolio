@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="projects-section">
+    <section id="services" className="projects-section">
       <h2 className="projects-title">Mes Projets</h2>
 
       <div className="projects-container">

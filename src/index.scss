@@ -15,3 +15,8 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+.content-wrapper {
+  position: relative;
+  z-index: 1; 
+}
