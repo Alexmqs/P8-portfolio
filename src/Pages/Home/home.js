@@ -1,4 +1,3 @@
-import './home.scss';
 import Navbar from "../../Components/NavBar/navbar"
 import About from "../../Components/About/about"
 import Header from "../../Components/Header/header"
