@@ -25,6 +25,7 @@ const ProjectDetail = ({ title, fullDescription, image, link, intitule, problema
       case 'React':
         return <FaReact size={30} />;
       case 'Node.js':
+      case 'API':
         return <FaNodeJs size={30} />;
       case 'SQL':
       case 'Database':

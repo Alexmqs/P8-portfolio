@@ -18,8 +18,6 @@ const ProjectDetails = () => {
     return <h2>Projet non trouvé</h2>;
   }
 
-
-
   return (
     <section>
       <ProjectDetail
