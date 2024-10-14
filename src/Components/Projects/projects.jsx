@@ -5,19 +5,19 @@ import projectsData from '../../projects.json';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]); 
-  const [activeFilter, setActiveFilter] = useState('All'); 
+  const [activeFilter, setActiveFilter] = useState('Tous'); 
 
   useEffect(() => {
     setProjects(projectsData); 
   }, []);
 
-  const technologies = ['All', 'SEO', 'HTML/CSS', 'JavaScript', 'React'];
+  const technologies = ['Tous', 'SEO', 'HTML','CSS', 'JavaScript', 'React'];
 
   // Filtrage des projets
   const handleFilterClick = (tech) => {
     setActiveFilter(tech);
 
-    if (tech === 'All') {
+    if (tech === 'Tous') {
       setProjects(projectsData); 
     } else {
       const filteredProjects = projectsData.filter((project) =>

@@ -22,13 +22,17 @@ const ProjectDetails = () => {
 
   return (
     <section>
-      <ProjectDetail 
-        title={project.title}
-        fullDescription={project.fullDescription}
-        image={project.image}
-        link={project.link}
-      />
-      <Footer />
+      <ProjectDetail
+      title={project.title}
+      fullDescription={project.fullDescription}
+      image={project.image}
+      link={project.link}
+      intitule={project.intitule}
+      problematique={project.problematique}
+      technologies ={project.technologies}
+      
+    />
+    <Footer />
     </section>
   );
 };
