@@ -4,15 +4,44 @@ import './projects.scss';
 import projectsData from '../../projects.json';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState([]); 
+  const [activeFilter, setActiveFilter] = useState('All'); 
 
   useEffect(() => {
     setProjects(projectsData); 
   }, []);
 
+  const technologies = ['All', 'SEO', 'HTML/CSS', 'JavaScript', 'React'];
+
+  // Filtrage des projets
+  const handleFilterClick = (tech) => {
+    setActiveFilter(tech);
+
+    if (tech === 'All') {
+      setProjects(projectsData); 
+    } else {
+      const filteredProjects = projectsData.filter((project) =>
+        project.technologies.includes(tech)
+      );
+      setProjects(filteredProjects); 
+    }
+  };
+
   return (
     <section id="services" className="projects-section">
       <h2 className="projects-title">Mes Projets</h2>
+
+      <div className="projects-filters">
+        {technologies.map((tech) => (
+          <button
+            key={tech}
+            className={`filter-btn ${activeFilter === tech ? 'active' : ''}`}
+            onClick={() => handleFilterClick(tech)}
+          >
+            {tech}
+          </button>
+        ))}
+      </div>
 
       <div className="projects-container">
         {projects.map((project) => (

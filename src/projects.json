@@ -5,9 +5,10 @@
       "image": "/Assets/Booki.png",
       "shortDescription": "Le projet Booki consiste à développer un site web permettant aux utilisateurs de rechercher des hébergements et des activités.",
       "fullDescription": "Scénario donné par OpenClassrooms: En tant que développeur web débutant votre alternance chez la start-up Booki, vous participez à la réalisation d'un site web qui permet aux utilisateurs de rechercher facilement des hébergements et des activités touristiques dans la ville de leur choix. Votre rôle est d'intégrer l'interface utilisateur en utilisant HTML et CSS, sous la direction de Sarah, la CTO, et en collaboration avec Loïc, l'UI designer. Vous disposez des maquettes complètes pour desktop, tablette et mobile, ainsi que d'une structure de fichiers initiale comprenant une base de code HTML, CSS et un ensemble d'images. Votre tâche consiste à compléter cette base tout en respectant les spécifications techniques fournies dans une note de synthèse, puis à versionner le projet sur GitHub tout au long du développement.",
-      "technologies": ["HTML", "CSS"],
+      "technologies": ["HTML/CSS"],
       "link": "https://github.com/Alexmqs/Projet-2-OC-Booki"
     },
+
     {
       "id": 2,
       "title": "OC Kasa",
@@ -23,7 +24,7 @@
       "image": "/Assets/Architect.png",
       "shortDescription": "Le projet Architect est une application web permettant de gérer des projets de construction.",
       "fullDescription": "Scénario donné par OpenClassrooms: En tant que développeur web freelance spécialisé dans l'optimisation SEO, vous êtes en charge d'améliorer les performances et la visibilité du site de Nina Carducci, une photographe. Après avoir identifié des problèmes de performance, vous avez proposé une série d'optimisations, incluant la réduction du temps de chargement des pages via l'optimisation des images et du code, l'amélioration de l'accessibilité, et l'intégration du référencement local grâce à Schema.org. Vous allez également ajouter des metas pour les réseaux sociaux et résoudre quelques bugs présents dans la navigation de la galerie d'images. En plus de livrer un site optimisé, vous fournirez un rapport détaillé, comparant les performances avant et après intervention, ainsi qu'une liste des modifications apportées. Vous travaillerez en collaboration avec Nina, qui vous a fourni toutes les informations nécessaires pour cette mission, et vous mettrez à jour le code via GitHub.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "technologies": ["HTML/CSS" , "JavaScript"],
       "link": "https://github.com/Alexmqs/Projet-3-Portfolio-architecte-sophie-bluel-master"
     },
     {
@@ -41,7 +42,7 @@
       "image": "/Assets/Nina.png",
       "shortDescription": "Le projet Nina est une application mobile destinée à faciliter la gestion des tâches quotidiennes.",
       "fullDescription": "Scénario donné par OpenClassrooms: En tant que développeur back-end freelance, vous collaborez avec Kévin, un développeur front-end expérimenté, pour créer le site de notation de livres 'Mon Vieux Grimoire' pour une chaîne de librairies. Kévin s'occupe du front-end en React, tandis que vous êtes chargé de développer l'API back-end. Le site permettra aux utilisateurs de référencer des livres et d'attribuer des notes visibles par le public. Après avoir consulté les spécifications fonctionnelles et techniques, vous devez implémenter une API qui gère l'ajout de livres, la gestion des notes et l'optimisation des images envoyées par les utilisateurs, afin de respecter les bonnes pratiques du Green Code. Vous travaillerez à partir des spécifications techniques et du front-end développé, en intégrant et testant l'ensemble avant de livrer le projet finalisé.",
-      "technologies": ["React Native", "JavaScript"],
+      "technologies": ["React", "JavaScript","SEO"],
       "link": "https://github.com/Alexmqs/Projet-4-Nina-Carducci-Dev-master"
     }
   ]
